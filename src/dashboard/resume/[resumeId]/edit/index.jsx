@@ -8,7 +8,7 @@ import { toast } from 'sonner';
 
 const EditResume = () => {
     const params=useParams();
-    console.log(params.resumeId)
+ 
     const [resumedata,setResumeData]=useState();
 
     useEffect(()=>{

@@ -49,7 +49,7 @@ const View = () => {
                  <RWebShare
         data={{
           text: "Hello! Every One, This is my resume",
-          url: import.meta.env.VITE_BASE_URL+'/my-resume/'+resumeId+'/view',
+          url: 'https://ai-resume-frontend-pied.vercel.app/'+'/my-resume/'+resumeId+'/view',
           title:resumedata?.firstName+" "+resumedata?.lastName+"AIresume",
         }}
         onClick={() => console.log("shared successfully!")}

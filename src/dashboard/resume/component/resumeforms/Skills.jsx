@@ -46,7 +46,7 @@ const Skills = ({resumeId}) => {
           async function handleSubmit()
           {
             try{
-                const response=await fetch(`http://localhost:4000/api/resumedetails/${resumeId}`, {
+                const response=await fetch(`https://ai-resumebuilder-backend.onrender.com/api/resumedetails/${resumeId}`, {
                     method:'POST',
                     headers:{
                         'Content-type':'application/json'
